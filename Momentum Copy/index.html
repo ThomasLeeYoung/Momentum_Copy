@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
    <link rel="stylesheet" href="styles.css" >
    <script src="index.js"></script>
 </head>
 <body>
-    <div id="time"> <h1>5:20</h1></div>
-   <div id="message"> <h2>Good Evening, Thomas</h2></div>
-</div>
+    <div class="clock"></div>
+    <div class="message"><h3>Good Evening, Thomas.</h3></div>
+    <div class= "toDoList"><h3>what would you like to accomplish today?</h3>
+        <input type="text" id="myInput" placeholder="Title...">
+        <span onclick="newElement()" class="addBtn">+</span></div>
 </body>
 </html>

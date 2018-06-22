@@ -1,29 +1,62 @@
 body {
-    background-image: url("landscape1.jpg");
+    background: url(landscape1.jpg);
     background-repeat: no-repeat;
     background-size: auto;
-    font-family: 'Roboto Condensed', sans-serif;
 }
-#time {
-    color:white;
-    text-shadow: black 5px 5px 5px 5px;
-    text-align: center;
-    margin-top:10%;
-    margin-right: 10%;
-    font-size:100px;
-    opacity: 0.9;
-    letter-spacing: 5px;
 
-}
-#message {
-    color:white;
-    text-shadow: black 5px 5px 5px 5px;
-    text-align: center;
+.clock {
     position: absolute;
-    top:300px;
-    left:450px;
-    font-size:60px;
-    opacity: 0.9;
-    letter-spacing: 5px;
+    top: 17%;
+    left: 46%;
+    transform: translateX(-50%) translateY(-50%);
+    color:white;
+    text-shadow: black 3px 1px;
+    font-size: 150px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 7px;
+    opacity: 1;
+    font-weight: bold;
+}
 
+.message {
+    position: absolute;
+    top:30%;
+    left:49%;
+    transform: translateX(-50%) translateY(-50%);
+    color:white;
+    text-shadow: black 1px 1px;
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 7px;
+    opacity: 1;
+    font-weight: bold;
+
+}
+
+.toDoList {
+    position: absolute;
+    top:49%;
+    left:49%;
+    transform: translateX(-50%) translateY(-50%);
+    color:white;
+    text-shadow: black 2px 2px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 7px;
+    opacity: 1;
+    font-weight: bold;
+}
+
+.addBtn {
+    position: absolute;
+    top:49%;
+    left:49%;
+    transform: translateX(-50%) translateY(-50%);
+    color:white;
+    text-shadow: black 2px 2px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 7px;
+    opacity: 1;
+    font-weight: bold;
 }
