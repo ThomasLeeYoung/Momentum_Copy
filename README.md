@@ -1,2 +1,2 @@
 # Momentum_Copy
-A recreation of the Google Chrome Widget "Momentum"
+I wanted to recreate a popular google extension "Momentum" that I use daily. Coded in HTMl, CSS, and JavaScript
